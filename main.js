@@ -1,12 +1,12 @@
 class Addition {
-  public int java(int sum) {
-    return sum;
+  public int java(int a, int b) {
+    return a+b;
   }
 }
 
 class Subtraction{
-  public int java(int diff) {
-    return diff;
+  public int java(int a, int b) {
+    return a-b;
   }
 }
 
@@ -14,9 +14,11 @@ class Main {
   public static void main(String args[]) {
     
     Addition Add = new Addition();
-    Add.java(x+y);
+    int sum = Add.java(2, 4);
 
     Subtraction Difference = new Subtraction();
-    Difference.java(x-y);
+    int diff = Difference.java(7, 3);
+
+    System.out.println("Sum: " + sum + "\nDifference: " + diff);
   }
 }
