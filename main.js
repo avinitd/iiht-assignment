@@ -1,12 +1,14 @@
 class Addition {
   public int java(int a, int b) {
-    return a+b;
+
+    return (2a+2b);
   }
 }
 
 class Subtraction{
   public int java(int a, int b) {
-    return a-b;
+
+    return (2a-2b);
   }
 }
 
